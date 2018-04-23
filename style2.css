@@ -1,0 +1,69 @@
+body {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+header {
+  background: #505484;
+  color: white;
+  width: 100%;
+  padding: 15px 70px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.images_item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+  div.container_img:hover div.green_hover {
+    /* display: block; */
+    opacity: 0.95;
+  }
+  div.container_img {
+    position: relative;
+  }
+  div.green_hover {
+    /* background-color: rgba(24, 188, 156, 0.9); */
+    /* background-color: #18bc9c; */
+    background-color: rgb(24, 188, 156);
+    opacity: 0; /* тоже самое что и сверху, цвет с прозрачностью */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* display: none; */
+    transition: opacity ease 0.5s;
+  }
+.container {
+  width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.neone {
+  display: inline;
+  padding-left: 230px;
+}
+.one {
+  display: inline;
+  width: 50%;
+  font-size: 20px;
+}
+.two {
+  display: inline;
+  width: 50%;
+  padding-right: 20px;
+}
+.three {
+  display: inline;
+  width: 50%;
+  padding-right: 20px;
+}
+.four {
+  display: inline;
+  width: 50%;
+}
+div > img {
+   width: 100%;
+}
