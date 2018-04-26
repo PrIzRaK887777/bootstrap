@@ -1,6 +1,5 @@
 body {
-  padding-left: 20%;
-  padding-right: 20%;
+
 }
 header {
   background: #505484;
@@ -36,7 +35,7 @@ a {
     /* display: none; */
     transition: opacity ease 0.5s;
   }
-.container {
+div.container {
   width: 100%;
   padding-left: 8%;
   padding-right: 8%;
@@ -66,4 +65,23 @@ a {
 }
 div > img {
    width: 100%;
+}
+footer.container {
+
+}
+div.row.first {
+  background: #2c3e50;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+div.row.second {
+  background: #1a252f;
+  color: white;
+}
+.row.first h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  /* text-align: center; */
+  padding-bottom: 15px;
 }
